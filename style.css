@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #112648;
+}
+
+.nav-left {
+    height: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding-left: 150px;
+}
+.nav-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box-1{
+    position: absolute;
+    top: 45px;
+    left: -10px;
+    width: 400px;
+    height: 200px;
+    background-color: #112648;
+    display: none;
+}
+.nav-mid ul a:hover .box-1{
+    display: inline-block;
+}
+.box-1-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.nav-mid ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 40px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav-mid ul a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    border-radius: 8px;
+    padding: 5px;
+    transition: rotate 0.1s ease-in-out;
+}
+
+.nav-mid ul a:hover {
+    background-color: rgba(240, 248, 255, 0.481);
+
+}
+
+.nav-mid ul a:hover li i {
+    transform: rotate(180deg);
+}
+
+.nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.nav-right-i:hover{
+border: 1px solid aqua;
+}
+
+.nav-right i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(251, 251, 251);
+    font-size: 40px;
+    
+}
+
+.nav-right button {
+    width: 140px;
+    height: 60px;
+    background-color: aqua;
+
+}
+
+.nav-right button:hover {
+    background-color: rgba(0, 255, 255, 0.814);
+}
+

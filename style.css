@@ -24,31 +24,46 @@
     font-weight: 700;
     padding-left: 150px;
 }
-.nav-mid{
+
+.nav-left .logo {
+    font-family: "Playwrite CU Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-left span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-mid {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.box-1{
+
+.box-1 {
     position: absolute;
     top: 45px;
     left: -10px;
     width: 400px;
     height: 200px;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     color: black;
     display: none;
 }
-.nav-mid ul a:hover .box-1{
+
+.nav-mid ul a:hover .box-1 {
     display: inline-block;
 }
-.box-1-left{
+
+.box-1-left {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 50%;
 }
+
 .nav-mid ul {
     display: flex;
     justify-content: center;
@@ -86,16 +101,17 @@
     gap: 10px;
 }
 
-.nav-right-i{
+.nav-right-i {
     display: flex;
     justify-content: center;
     align-items: center;
-     height: 45px;
+    height: 45px;
     width: 45px;
     border-radius: 50%;
 }
-.nav-right-i:hover{
-border: 1px solid aqua;
+
+.nav-right-i:hover {
+    border: 1px solid aqua;
 }
 
 .nav-right i {
@@ -104,7 +120,7 @@ border: 1px solid aqua;
     align-items: center;
     color: rgb(251, 251, 251);
     font-size: 40px;
-    
+
 }
 
 .nav-right button {
@@ -115,24 +131,27 @@ border: 1px solid aqua;
 }
 
 .nav-right button:hover {
-    background-color: rgba(0, 255, 255, 0.814);
+    background-color: rgba(132, 245, 245, 0.853);
 }
 
-.page-1{
+.page-1 {
     height: 100vh;
     background-color: #112648;
     color: white;
 }
-.page-1-row{
+
+.page-1-row {
     padding-top: 100px;
-   padding-left: 150px;
+    padding-left: 150px;
 }
-.page-1-row h1{
+
+.page-1-row h1 {
     font-size: 65px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
-.page-1-btn-1{
+
+.page-1-btn-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,12 +159,14 @@ border: 1px solid aqua;
     padding-top: 55px;
     border: none;
 }
-.page-1-btn-1 button{
+
+.page-1-btn-1 button {
     width: 265px;
     height: 60px;
     border: none;
 }
-.page-1-btn-1 .page-1-btn-clor{
+
+.page-1-btn-1 .page-1-btn-clor {
     background-color: rgba(30, 249, 249, 0.897);
     font-size: 18px;
     display: flex;
@@ -153,7 +174,11 @@ border: 1px solid aqua;
     align-items: center;
     gap: 10px;
 }
-.page-1-btn-1 .page-1-btn-clor-1{
+.page-1-btn-1 .page-1-btn-clor:hover{
+     background-color: rgba(141, 244, 244, 0.896);
+}
+
+.page-1-btn-1 .page-1-btn-clor-1 {
     background-color: rgba(253, 255, 255, 0.166);
     font-size: 22px;
     color: white;
@@ -161,11 +186,16 @@ border: 1px solid aqua;
     justify-content: center;
     align-items: center;
     gap: 20px;
-}  
-.page-1-row ul{
+}
+.page-1-btn-1 .page-1-btn-clor-1:hover{
+    background-color: rgba(253, 255, 255, 0.293);
+}
+
+.page-1-row ul {
     display: flex;
     padding-top: 70px;
 }
-.page-1-row ul li{
+
+.page-1-row ul li {
     font-size: 20px;
 }

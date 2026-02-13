@@ -36,7 +36,8 @@
     left: -10px;
     width: 400px;
     height: 200px;
-    background-color: #112648;
+    background-color:antiquewhite;
+    color: black;
     display: none;
 }
 .nav-mid ul a:hover .box-1{
@@ -117,3 +118,54 @@ border: 1px solid aqua;
     background-color: rgba(0, 255, 255, 0.814);
 }
 
+.page-1{
+    height: 100vh;
+    background-color: #112648;
+    color: white;
+}
+.page-1-row{
+    padding-top: 100px;
+   padding-left: 150px;
+}
+.page-1-row h1{
+    font-size: 65px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.page-1-btn-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding-top: 55px;
+    border: none;
+}
+.page-1-btn-1 button{
+    width: 265px;
+    height: 60px;
+    border: none;
+}
+.page-1-btn-1 .page-1-btn-clor{
+    background-color: rgba(30, 249, 249, 0.897);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.page-1-btn-1 .page-1-btn-clor-1{
+    background-color: rgba(253, 255, 255, 0.166);
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}  
+.page-1-row ul{
+    display: flex;
+    padding-top: 70px;
+}
+.page-1-row ul li{
+    font-size: 20px;
+}

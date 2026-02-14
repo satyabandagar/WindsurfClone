@@ -1,0 +1,23 @@
+<svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+
+                        <!-- Gradient Definition -->
+                        <defs>
+                            <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00F0FF" />
+                                <stop offset="100%" stop-color="#0066FF" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Stylish W Icon -->
+                        <text x="10" y="42" font-size="40" font-weight="800" fill="url(#aiGradient)"
+                            font-family="Play, sans-serif">
+                            W
+                        </text>
+
+                        <!-- Brand Name -->
+                        <text x="60" y="40" font-size="26" font-weight="600" fill="white"
+                            font-family="Play, sans-serif">
+                            Windsurf
+                        </text>
+
+                    </svg>

@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "primary color";
+    src: url("https://windsurf.com/_next/static/media/0e96d314a90a6138-s.p.woff2");
+}
+
+@font-face {
+    font-family: "secondary color";
+    src: url("https://windsurf.com/_next/static/media/3ecc75a922018515-s.p.woff2");
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -107,6 +116,7 @@
     padding: 10px;
     border-radius: 8px;
     transition: rotate 0.1s ease-in-out;
+    font-family: var("--primary color");
 }
 
 .nav-mid ul a {
@@ -196,7 +206,7 @@
 
 .page-1-row p {
     font-size: 65px;
-    font-family: 'Inter', sans-serif;
+    font-family: "secondary color";
     font-weight: 0;
     letter-spacing: 0.5px;
     line-height: 1.1;
@@ -221,6 +231,8 @@
 .page-1-btn-1 .page-1-btn-clor {
     background-color: rgba(30, 249, 249, 0.897);
     font-size: 18px;
+    font-weight: 500;
+    color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +244,8 @@
 
 .page-1-btn-1 .page-1-btn-clor-1 {
     background-color: rgba(253, 255, 255, 0.166);
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 100;
     color: white;
     display: flex;
     justify-content: center;
@@ -323,4 +336,61 @@
     letter-spacing: 0.5px;
     color: rgba(255, 255, 255, 0.949);
     font-weight: 300;
+}
+.page-3{
+    overflow: hidden;
+    height: 170vh;
+    width: 100%;
+    background-color: #112648;
+}
+.page-3-row{
+    display: flex;
+    gap: 100px;
+    margin: auto;
+    width: 100%;
+}
+.page-3 .col-1{
+    display: grid;
+    grid-template-columns: 600px;
+    margin-left: 100px;
+    height: 200px;
+}
+.page-3 .col-1 h3{
+    color: rgba(255, 255, 255, 0.882);
+    margin-left: 20px;
+    font-size: 27px;
+    font-family: "secondary color";
+    font-weight: 100;
+}
+.page-3 .col-2{
+     display: grid;
+    grid-template-columns: 550px;
+    height: 200px;
+}
+.page-3 .col-2 p{
+    color: white;
+    font-size: 16px;
+    font-family: "secondary color";
+    font-weight: 500;
+}
+.page-3 .col-2 a{
+    margin-bottom: 40px;
+    font-size: 20px;
+    list-style: 1;
+    line-height: normal;
+    color: #b425d7;
+    text-decoration:underline;
+    line-height: 2.1px;
+    letter-spacing: 1px;
+}
+.page-3 .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+.page-3 .row video{
+  width: 75vw;
+  object-fit: cover;
+  box-shadow: 1px 2px 4px 0.5px rgba(255, 255, 255, 0.614);
 }
